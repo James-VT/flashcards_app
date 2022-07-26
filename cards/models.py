@@ -1,3 +1,5 @@
+# cards/models.py
+
 from django.db import models
 
 NUM_BOXES = 5

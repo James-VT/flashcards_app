@@ -120,7 +120,9 @@ STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    '/flashcards_app/static/',
+    # The below line is commented out because seemingly unnecessary.
+    # Uncomment it if the static files misbehave.
+    # '/flashcards_app/static/',
 ]
 
 # Default primary key field type
